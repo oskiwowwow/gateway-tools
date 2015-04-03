@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Gateway Tools</title>
+		<link type="text/css" rel="stylesheet" href="styles.css" />
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="/scripts/sendpartial.js"></script>
+	</head>
+	<body>
+		<div id=topnav class="shadow">
+			<h1 id=title> gateway tools </h1>
+		    <div id="navlinks">
+		    	<a href="monitor.html">wallet monitor</a>
+				<a href="sendpartial.html" class='self_link'>partial payment</a>
+		    </div>
+		</div>
+		<div id="outer" class="shadow">
+			<div id="main">	
+				<div class="input_card card">
+					<p> Enter the details below to test a partial payment </p>
+					<label> Source Address: </label><input id="src_addr" type="text" placeholder="r12Aabc..." value="rP9gBQbaihNKAAxLD6ZK1a4HZ4qXRWaaGM"/>
+					<label> Source Secret: </label>
+					<input id="src_secret" type="text" placeholder="sssss..." />
+					<label> Destination Address: </label>
+					<input id="dest_addr" type="text" placeholder="r456def..." value="r4zGEdeqRguCk2ZNCEzDGhzsmn3BkA5126" />
+					<label> Fake Amount (in XRP): </label>
+					<input id="fake_amt" type="text" placeholder="100" value="10"/>
+					<label> True Amount (in XRP): </label>
+					<input id="true_amt" type="text" placeholder=".01" value=".01"/>
+					<input id="submit_btn" type="button" value="submit" />
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

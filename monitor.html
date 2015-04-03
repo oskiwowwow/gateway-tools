@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Gateway Tools</title>
+		<link type="text/css" rel="stylesheet" href="styles.css" />
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="scripts/jquery.js"></script>
+		<script type="text/javascript" src="scripts/monitor.js"></script>
+		<script type="text/javascript" src="scripts/ripple-0.12.2-rc1-debug.js"></script>
+	</head>
+	<body>
+		<div id=topnav class="shadow">
+			<h1 id=title> gateway tools </h1>
+		    <div id="navlinks">
+		    	<a href="monitor.html" class='self_link'>wallet monitor</a>
+				<a href="sendpartial.html">partial payment</a>
+		    </div>
+		</div>
+		<div id="outer" class="shadow">
+			<div id="welcome">
+				<div id="input">
+					<label> URL for ripple.txt: </label>
+					<input id="ripple_txt_url" type="text" name="url" value="https://snapswap.us/ripple.txt">
+					<input id="url_submit" type="button" value="Submit">
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,94 @@
+input[type="text"] {
+    width: 200px;
+}
+
+#input_old {
+	position:absolute;
+	right: 10px;
+	bottom: 20px;
+}
+
+body {
+	font-family: 'Roboto',sans-serif;
+	font-weight: 100;
+	background-color: #AAAAAA;
+	text-align:center;
+	padding-top:85px;
+}
+
+#topnav a {
+	text-decoration: none;
+	color: white;
+}
+
+
+
+#topnav { position:fixed; top:0; right:0; left:0; padding: 10px; background-color:#57A2D7; vertical-align: middle; color:white;}
+#navlinks {position:absolute; right: 10px; bottom: 20px;}
+#navlinks a {margin-left: 25px;}
+#title { float:left }
+
+#ripple_txt {float:left; margin-right:5px; width: 500px;}
+#account_info {float:right; margin-left:5px; width: 390px;}
+#cold_wallet_validations {float:right; margin-left:5px; margin-top: 5px; clear:right; width: 390px;}
+#instruction {float:right; background-color: #DDDDDD; margin-right:20px;}
+
+.card {
+	background-color: #FFFFFF;
+	padding: 10px;
+	text-align:left;
+	white-space: pre-wrap; 
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size:12px;
+}
+
+.good {
+	color:DarkGreen;
+	background-color:LightGreen;
+}
+
+.bad {
+	color:DarkRed;
+	background-color:LightPink;
+}
+
+.self_link {
+	font-size: 26px;
+}
+
+
+#topnav h1 {
+	font-size: 50px;
+	font-weight:100;
+	text-align: center;
+	margin: 0px auto 0px auto;
+	display: block;
+}
+
+#outer {
+	margin-left:auto;
+	margin-right:auto;
+	background-color: #DDDDDD;
+	padding: 5px;
+	overflow:auto;
+	display:inline-block;
+}
+
+#main {
+	margin-left:auto;
+	margin-right:auto;
+	background-color: #DDDDDD;
+}
+
+.option:hover {
+	text-shadow: 2px 2px 6px;
+}
+
+.shadow {
+	-webkit-box-shadow: 0px 2px  5px rgba(0,0,0,0.2);
+}
+
+#footer {
+	clear:both;
+}
+
